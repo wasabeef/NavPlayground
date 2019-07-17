@@ -1,0 +1,2 @@
+rootProject.name='NavPlayground'
+include ':app', ':app-step0', ':app-step1-action', ':app-step2-args', ":app-step3-deeplink"
