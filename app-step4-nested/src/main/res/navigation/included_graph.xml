@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/included_graph"
+    app:startDestination="@id/fragment_dashboard"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/fragment_dashboard"
+        android:name="jp.wasabeef.navplayground.dashboard.DashboardFragment"
+        android:label="DashboardFragment"
+        tools:layout="@layout/fragment_dashboard">
+
+        <argument
+            android:name="id"
+            app:argType="string" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="location"
+            android:defaultValue="none"
+            app:argType="string" />
+
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="wasabeef.jp/dashboard/{id}/{name}" />
+    </fragment>
+
+</navigation>
