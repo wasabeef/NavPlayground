@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/NavPlayground.iml" filepath="$PROJECT_DIR$/NavPlayground.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-step0/app-step0.iml" filepath="$PROJECT_DIR$/app-step0/app-step0.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-step1-action/app-step1-action.iml" filepath="$PROJECT_DIR$/app-step1-action/app-step1-action.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-step1-action-with-anim/app-step1-action-with-anim.iml" filepath="$PROJECT_DIR$/app-step1-action-with-anim/app-step1-action-with-anim.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-step2-args/app-step2-args.iml" filepath="$PROJECT_DIR$/app-step2-args/app-step2-args.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-step3-deeplink/app-step3-deeplink.iml" filepath="$PROJECT_DIR$/app-step3-deeplink/app-step3-deeplink.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-step4-nested/app-step4-nested.iml" filepath="$PROJECT_DIR$/app-step4-nested/app-step4-nested.iml" />

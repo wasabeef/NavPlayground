@@ -2,6 +2,7 @@ rootProject.name='NavPlayground'
 
 include ':app-step0'
 include ':app-step1-action'
+include ':app-step1-action-with-anim'
 include ':app-step2-args'
 include ':app-step3-deeplink'
 include ':app-step4-nested'
