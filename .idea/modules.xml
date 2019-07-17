@@ -3,11 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NavPlayground.iml" filepath="$PROJECT_DIR$/NavPlayground.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-step0/app-step0.iml" filepath="$PROJECT_DIR$/app-step0/app-step0.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-step1-action/app-step1-action.iml" filepath="$PROJECT_DIR$/app-step1-action/app-step1-action.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-step2-args/app-step2-args.iml" filepath="$PROJECT_DIR$/app-step2-args/app-step2-args.iml" />
       <module fileurl="file://$PROJECT_DIR$/app-step3-deeplink/app-step3-deeplink.iml" filepath="$PROJECT_DIR$/app-step3-deeplink/app-step3-deeplink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-step4-nested/app-step4-nested.iml" filepath="$PROJECT_DIR$/app-step4-nested/app-step4-nested.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-step5-bottom-nav/app-step5-bottom-nav.iml" filepath="$PROJECT_DIR$/app-step5-bottom-nav/app-step5-bottom-nav.iml" />
     </modules>
   </component>
 </project>

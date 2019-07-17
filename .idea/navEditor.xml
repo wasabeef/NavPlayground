@@ -54,7 +54,7 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
-                  <entry key="fragment_dashboard">
+                  <entry key="navigation_dashboard">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
@@ -66,7 +66,7 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="fragment_home">
+                  <entry key="navigation_home">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
@@ -75,14 +75,17 @@
                             <option name="y" value="12" />
                           </Point>
                         </option>
-                        <option name="myPositions">
-                          <map>
-                            <entry key="to_dashboard">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                          </map>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="navigation_notifications">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="12" />
+                            <option name="y" value="368" />
+                          </Point>
                         </option>
                       </LayoutPositions>
                     </value>
