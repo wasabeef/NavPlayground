@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/NavPlayground.iml" filepath="$PROJECT_DIR$/NavPlayground.iml" group="NavPlayground" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="NavPlayground/app" />
-      <module fileurl="file://$PROJECT_DIR$/app-step0/app-step0.iml" filepath="$PROJECT_DIR$/app-step0/app-step0.iml" group="NavPlayground/app-step0" />
-      <module fileurl="file://$PROJECT_DIR$/app-step1-action/app-step1-action.iml" filepath="$PROJECT_DIR$/app-step1-action/app-step1-action.iml" group="NavPlayground/app-step1-action" />
-      <module fileurl="file://$PROJECT_DIR$/app-step2-args/app-step2-args.iml" filepath="$PROJECT_DIR$/app-step2-args/app-step2-args.iml" group="NavPlayground/app-step2-args" />
-      <module fileurl="file://$PROJECT_DIR$/app-step3-deeplink/app-step3-deeplink.iml" filepath="$PROJECT_DIR$/app-step3-deeplink/app-step3-deeplink.iml" group="NavPlayground/app-step3-deeplink" />
+      <module fileurl="file://$PROJECT_DIR$/NavPlayground.iml" filepath="$PROJECT_DIR$/NavPlayground.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-step0/app-step0.iml" filepath="$PROJECT_DIR$/app-step0/app-step0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-step1-action/app-step1-action.iml" filepath="$PROJECT_DIR$/app-step1-action/app-step1-action.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-step2-args/app-step2-args.iml" filepath="$PROJECT_DIR$/app-step2-args/app-step2-args.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-step3-deeplink/app-step3-deeplink.iml" filepath="$PROJECT_DIR$/app-step3-deeplink/app-step3-deeplink.iml" />
     </modules>
   </component>
 </project>
