@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
+import com.google.android.material.snackbar.Snackbar
 import jp.wasabeef.navplayground.R
 import kotlinx.android.synthetic.main.fragment_home.*
 
@@ -31,6 +32,7 @@ class HomeFragment : Fragment() {
 
         btn_to_dashboard.setOnClickListener {
             // Navigation を使って遷移させてみましょう。
+            Snackbar.make(view, "Navigation を使って遷移させてみましょう。", Snackbar.LENGTH_SHORT).show()
         }
     }
 }
