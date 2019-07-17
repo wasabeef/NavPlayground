@@ -1,4 +1,4 @@
-package jp.wasabeef.navplayground.home
+package jp.wasabeef.navplayground.dashboard
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,29 +8,25 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import jp.wasabeef.navplayground.R
-import kotlinx.android.synthetic.main.fragment_home.*
+import kotlinx.android.synthetic.main.fragment_dashboard.*
 
-class HomeFragment : Fragment() {
+class DashboardFragment : Fragment() {
 
-    private val homeViewModel: HomeViewModel by viewModels()
+    private val dashboardViewModel: DashboardViewModel by viewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_home, container, false)
+        return inflater.inflate(R.layout.fragment_dashboard, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        homeViewModel.text.observe(this, Observer {
-            text_home.text = it
+        dashboardViewModel.text.observe(this, Observer {
+            text_dashboard.text = it
         })
-
-        btn_to_dashboard.setOnClickListener {
-            // Navigation を使って遷移させてみましょう。
-        }
     }
 }
