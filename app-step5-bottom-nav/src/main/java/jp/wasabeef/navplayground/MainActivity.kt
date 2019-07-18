@@ -2,7 +2,6 @@ package jp.wasabeef.navplayground
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.Toolbar
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
@@ -16,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val navController = findNavController(R.id.nav_host_fragment)
+        // タイトルなどの制御
         setupActionBarWithNavController(
             navController, AppBarConfiguration(
                 setOf(
@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
                 )
             )
         )
+        // BottomNavigation の遷移を制御
         nav_view.setupWithNavController(navController)
     }
 }
