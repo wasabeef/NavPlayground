@@ -6,13 +6,13 @@
     app:startDestination="@+id/fragment_home">
 
     <fragment
-        android:id="@+id/fragment_home"
+        android:id="@id/fragment_home"
         android:name="jp.wasabeef.navplayground.home.HomeFragment"
         android:label="HomeFragment"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/fragment_dashboard"
+        android:id="@id/fragment_dashboard"
         android:name="jp.wasabeef.navplayground.dashboard.DashboardFragment"
         android:label="DashboardFragment"
         tools:layout="@layout/fragment_dashboard" />
